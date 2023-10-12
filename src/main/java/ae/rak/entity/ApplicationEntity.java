@@ -12,7 +12,16 @@ public class ApplicationEntity extends PanacheEntityBase {
     public Long id;
 
     public String title;
+
     public String code;
+
+    public String iconName;
+
+    public String serviceType;
+
+    public String location;
+
+    public String serviceUrl;
 
     @ElementCollection
     public List<String> modules;

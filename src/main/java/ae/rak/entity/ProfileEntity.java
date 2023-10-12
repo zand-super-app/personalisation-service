@@ -22,6 +22,8 @@ public class ProfileEntity extends PanacheEntityBase {
     @ElementCollection
     public List<String> favourites;
 
+    public List<String> banners;
+
     @OneToMany(cascade = CascadeType.ALL)
     public List<ApplicationEntity> applications;
 

@@ -10,4 +10,5 @@ public class ProfileDTO {
     public List<String> roles;
     public List<String> favourites;
     public List<ApplicationDTO> applications;
+    public List<String> banners;        
 }
